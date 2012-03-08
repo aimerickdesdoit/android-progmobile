@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ProgmobileActivity!</string>
+    <string name="app_name">Prog mobile</string>
+    <string name="main_activity">Activité principale</string>
+    <string name="liste1_activity">Liste #1</string>
+    <string name="texte1_activity">Texte #1</string>
+
+</resources>
