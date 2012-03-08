@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.aimerick.prog_mobile"
-    android:versionCode="1"
-    android:versionName="1.0" >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="fr.aimerick.prog_mobile" android:versionCode="1" android:versionName="1.0" >
 
+     <!-- version minimale du SDK -->
     <uses-sdk android:minSdkVersion="8" />
 
-    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+    <application android:icon="@drawable/launcher" android:label="@string/app_name">
+        
+        <!-- activité principale -->
         <activity android:name=".ProgmobileActivity" android:label="@string/main_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <!-- listes -->
         <activity android:name=".Liste1Activity" android:label="@string/liste1_activity"></activity>
-        <activity android:name=".Texte1Activity" android:label="@string/texte1_activity"></activity>
+        <activity android:name=".Liste1TexteActivity" android:label="@string/liste1_texte_activity"></activity>
+        
+        <!-- menus -->
+        <activity android:name=".Menu1Activity" android:label="@string/menu1_activity"></activity>
+        
+        <!-- onglets -->
+        <activity android:name=".Onglets1Activity" android:label="@string/onglets1_activity"></activity>
+        <activity android:name=".Onglets2Activity" android:label="@string/onglets1_activity"></activity>
+        
     </application>
 
 </manifest>
