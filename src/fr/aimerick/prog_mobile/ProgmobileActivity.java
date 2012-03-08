@@ -1,4 +1,4 @@
 package fr.aimerick.prog_mobile;
 
-public class ProgmobileActivity extends Liste1Activity {
+public class ProgmobileActivity extends Menu1Activity {
 }

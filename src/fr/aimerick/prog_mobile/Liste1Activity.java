@@ -10,7 +10,7 @@ import android.widget.ListView;
 public class Liste1Activity extends ListActivity {
 	
 	protected String[] _mStrings = {
-			"#1", "#2", "#3"
+		"#1", "#2", "#3"
 	};
 	
     @Override
