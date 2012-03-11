@@ -9,14 +9,14 @@ import android.widget.ListView;
 
 public class Liste1Activity extends ListActivity {
 	
-	protected String[] _mStrings = {
+	protected String[] _strings = {
 		"#1", "#2", "#3"
 	};
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, _mStrings));
+        setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, _strings));
     }
     
     @Override
@@ -24,7 +24,7 @@ public class Liste1Activity extends ListActivity {
     	super.onListItemClick(l, v, position, id);
     	
     	String texte = (String) getListAdapter().getItem(position);
-//    	String texte = _mStrings[position];
+//    	String texte = _strings[position];
     	
     	Intent i = new Intent(this, Liste1TexteActivity.class);
     	i.putExtra("from_list", texte);
