@@ -6,7 +6,8 @@
     <string name="liste1_activity">Liste #1</string>
     <string name="liste1_texte_activity">Texte #1</string>
     <string name="menu1_activity">Menu #1</string>
-    <string name="onglets1_activity">Onglets #1</string>
-    <string name="onglets2_activity">Onglets #1</string>
+    <string name="notification1_activity">Notification #1</string>
+    <string name="onglet1_activity">Onglet #1</string>
+    <string name="onglet2_activity">Onglet #2</string>
     
 </resources>

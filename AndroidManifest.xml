@@ -21,9 +21,12 @@
         <!-- menus -->
         <activity android:name=".Menu1Activity" android:label="@string/menu1_activity"></activity>
         
-        <!-- onglets -->
-        <activity android:name=".Onglets1Activity" android:label="@string/onglets1_activity"></activity>
-        <activity android:name=".Onglets2Activity" android:label="@string/onglets1_activity"></activity>
+        <!-- notifications -->
+        <activity android:name=".Notification1Activity" android:label="@string/notification1_activity"></activity>
+        
+        <!-- onglet -->
+        <activity android:name=".Onglet1Activity" android:label="@string/onglet1_activity"></activity>
+        <activity android:name=".Onglet2Activity" android:label="@string/onglet1_activity"></activity>
         
     </application>
 
