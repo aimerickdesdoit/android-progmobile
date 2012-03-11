@@ -1,4 +1,4 @@
 package fr.aimerick.prog_mobile;
 
-public class ProgmobileActivity extends Notification1Activity {
+public class ProgmobileActivity extends Liste3Activity {
 }
